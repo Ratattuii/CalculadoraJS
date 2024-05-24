@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+            <button onclick="mostrarNoDisplay('1')" class="numero">1</button>
+            <button onclick="mostrarNoDisplay('2')" class="numero">2</button>
+            <button onclick="mostrarNoDisplay('3')" class="numero">3</button>
+            <button onclick="mostrarNoDisplay('+')" class="operador">+</button>
+            <button onclick="mostrarNoDisplay('4')" class="numero">4</button>
+            <button onclick="mostrarNoDisplay('5')" class="numero">5</button>
+            <button onclick="mostrarNoDisplay('6')" class="numero">6</button>
+            <button onclick="mostrarNoDisplay('-')" class="operador">-</button>
+            <button onclick="mostrarNoDisplay('7')" class="numero">7</button>
+            <button onclick="mostrarNoDisplay('8')" class="numero">8</button>
+            <button onclick="mostrarNoDisplay('9')" class="numero">9</button>
+            <button onclick="mostrarNoDisplay('*')" class="operador">*</button>
+            <button onclick="mostrarNoDisplay('0')" class="numero">0</button>
+            <button onclick="mostrarNoDisplay('.')" class="operador">.</button>
+            <button onclick="calculate()" class="operador">=</button>
+            <button onclick="mostrarNoDisplay('/')" class="operador"">/</button>
+            <button onclick="clearDisplay()" id="limpar">C</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
